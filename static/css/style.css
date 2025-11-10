@@ -1088,7 +1088,7 @@ body {
 /* Performance Metrics Section */
 .metrics-section {
     margin-top: 40px;
-    min-height: 400px;
+    min-height: 800px;
     height: auto;
     max-height: none;
     overflow: visible;
@@ -1097,7 +1097,7 @@ body {
 .metrics-section .panel {
     height: auto;
     max-height: none;
-    min-height: 400px;
+    min-height: 800px;
     margin: 0 10px;
     overflow-y: auto;
     padding-bottom: 40px;
@@ -1358,7 +1358,7 @@ body {
     padding: 0;
     margin-bottom: 40px;
     box-shadow: var(--shadow);
-    min-height: 600px;
+    min-height: 900px;
     height: auto;
     max-height: none;
     overflow: visible;
@@ -1381,7 +1381,7 @@ body {
     display: grid;
     grid-template-columns: 45% 55%;
     gap: 0;
-    min-height: 550px;
+    min-height: 850px;
 }
 
 .compression-left-column {
@@ -1661,7 +1661,7 @@ body {
     order: 2;
     transition: all 0.3s ease;
     flex: 1 1 auto;
-    min-height: 400px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     overflow-y: visible;
@@ -1671,14 +1671,14 @@ body {
 .compression-right-column:not(.advanced-expanded) .compression-status-display {
     flex: 1 1 auto;
     background: var(--bg-primary);
-    min-height: 400px;
+    min-height: 600px;
 }
 
 /* When advanced options are expanded, compress the progress section */
 .compression-right-column.advanced-expanded .compression-status-display {
     flex: 0 1 auto;
     order: 3;
-    min-height: 350px;
+    min-height: 500px;
 }
 
 .status-header {
