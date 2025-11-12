@@ -1,6 +1,6 @@
 # vLLM Playground
 
-A modern web interface for managing and interacting with vLLM (Very Large Language Model) servers. Supports both GPU and CPU modes, with special optimizations for macOS Apple Silicon.
+A modern web interface for managing and interacting with vLLM servers (www.github.com/vllm-project/vllm). Supports both GPU and CPU modes, with special optimizations for macOS Apple Silicon.
 
 ![vLLM Playground Interface](assets/vllm-playground.png)
 
